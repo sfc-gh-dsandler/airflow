@@ -44,10 +44,10 @@ ARG AIRFLOW_GID="50000"
 
 ARG CASS_DRIVER_BUILD_CONCURRENCY="8"
 
-ARG PYTHON_BASE_IMAGE="python:3.6-slim-buster"
-ARG PYTHON_MAJOR_MINOR_VERSION="3.6"
+ARG PYTHON_BASE_IMAGE="python:3.8-slim-buster"
+ARG PYTHON_MAJOR_MINOR_VERSION="3.8"
 
-ARG AIRFLOW_PIP_VERSION=20.2.4
+ARG AIRFLOW_PIP_VERSION=20.3.3
 
 ##############################################################################################
 # This is the build image where we build all dependencies
